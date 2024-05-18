@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Using Html and Css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1>Survey Form </H1>
+    <form id="form">
+
+        <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" >
+        </div>
+
+        <div class="form-control">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="form-control">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age ">
+        </div>
+
+        <div class="form-control">
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+       <div class="form-control">
+            <label for="recommended">Where From you know about this?</label>
+            <label for="recommended1"><input type="radio" name="recommended" id="recommended1">Friend</label>
+            <label for="recommended1"><input type="radio" name="recommended" id="recommended1">Social Media</label>
+            <label for="recommended1"><input type="radio" name="friend" id="recommended1">Known One</label>
+            <label for="recommended1"><input type="radio" name="recommended" id="recommended1">Others</label>
+       </div> 
+
+       <div class="form-control">
+            <label for="favlang">Which Languages and Frameworks you Know <small>&LeftAngleBracket; check all that apply &RightAngleBracket;</small></label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">C
+                  </input>
+              </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">C++
+                  </input>
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">C#
+                  </input>
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Java
+                  </input>
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Python
+                  </input>
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">JavaScript
+                  </input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">React
+                  </input>
+            </label>
+            <label for="inp-8">
+                <input type="checkbox" name="inp">Angular
+                  </input>
+            </label>
+            <label for="inp-9">
+                <input type="checkbox" name="inp">Django
+                  </input>
+            </label>
+            <label for="inp-10">
+                <input type="checkbox" name="inp">Spring
+                  </input>
+            </label>
+       </div>
+
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
